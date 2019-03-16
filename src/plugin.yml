@@ -1,0 +1,26 @@
+name: SilentClear
+version: 1.0
+website: http://www.realhunters.de
+author: John_H_Smith
+main: me.John_H_Smith.SilentClear.Main
+commands:
+  silentclear:
+    usage: Use /help silentclear
+    description: Deletes own inventory
+    aliases: [sclear]
+  silentclear <player>:
+    usage: Use /help silentclear
+    description: Deletes others inventory
+    aliases: [sclear <player>]
+permissions:
+  sclear.*:
+    description: Access to SilentClear
+    children:
+      sclear.others: true
+      sclear.self: true
+  clear.others:
+    description:  Deletes others inventory
+    default: false
+  clear.self:
+    description:  Deletes own inventory
+    default: false
