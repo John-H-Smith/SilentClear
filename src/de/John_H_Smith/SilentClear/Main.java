@@ -1,4 +1,4 @@
-package me.John_H_Smith.SilentClear;
+package de.John_H_Smith.SilentClear;
 
 import java.util.logging.Logger;
 
