@@ -1,7 +1,7 @@
 ## SilentClear
 --------------
 
-A lightweight sponge plugin that gives the ability to silently (without chat message notification) someone elses inventory or your own.
+A lightweight spigot/bukkit plugin that gives the ability to silently (without chat message notification) someone elses inventory or your own.
 
 The only message sent by the plugin is that the inventory of the other player was cleared.
 
