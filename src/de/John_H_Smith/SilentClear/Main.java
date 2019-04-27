@@ -48,7 +48,7 @@ public class Main extends JavaPlugin {
 				}
 			}
 			
-		} else { sender.sendMessage("This is an player only command!"); return true; }
+		} else { sender.sendMessage("This is a player only command!"); return true; }
 		
 		
 		return false;
